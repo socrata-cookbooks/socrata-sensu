@@ -18,5 +18,5 @@
 # limitations under the License.
 #
 
-default['sensu']['version'] = '0.22.0-1'
-default['sensu']['use_embedded_ruby'] = true
+include_recipe 'runit'
+include_recipe 'sensu'

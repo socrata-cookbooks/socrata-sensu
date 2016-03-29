@@ -9,6 +9,7 @@ long_description 'Installs/Configures socrata-sensu'
 version          '0.0.1'
 
 depends          'sensu', '~> 2.11'
+depends          'runit', '~> 1.7'
 
 supports         'ubuntu'
 supports         'debian'

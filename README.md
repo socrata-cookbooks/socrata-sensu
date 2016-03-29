@@ -10,68 +10,40 @@ Socrata Sensu Cookbook
 [codeclimate]: https://codeclimate.com/github/socrata-cookbooks/socrata-sensu
 [coveralls]: https://coveralls.io/r/socrata-cookbooks/socrata-sensu
 
-TODO: Enter the cookbook description here.
+A wrapper cookbook that performs a base Sensu install, itself wrappable by
+server and client cookbooks.
 
 Requirements
 ============
 
-TODO: Describe cookbook dependencies.
+This is a wrapper around the community `sensu` cookbook. It is currently tested
+against Ubuntu 14.04 only.
 
 Usage
 =====
 
-TODO: Describe how to use the cookbook.
+Add the default recipe to your run_list.
 
 Recipes
 =======
 
 ***default***
 
-TODO: Describe each component recipe.
+Installs Runit and Sensu.
 
 Attributes
 ==========
 
 ***default***
 
-TODO: Describe any noteworthy attributes.
-
-Resources
-=========
-
-***socrata_sensu***
-
-TODO: Describe each included resource.
-
-Syntax:
-
-    socrata_sensu 'my_resource' do
-        attribute1 'value1'
-        action :create
-    end
-
-Actions:
-
-| Action  | Description  |
-|---------|--------------|
-| action1 | Do something |
-
-Attributes:
-
-| Attribute  | Default        | Description          |
-|------------|----------------|----------------------|
-| attribute1 | `'some_value'` | Do something         |
-| action     | `:create`      | Action(s) to perform |
-
-Providers
-=========
-
-TODO: Describe each included provider
-
-***Chef::Provider::SomeProvider***
+Overrides Sensu attributes to use a more recent version of Sensu, the embedded
+Ruby environment for all plugins, and Runit for service management.
 
 Contributing
 ============
+
+Pull requests are welcome, though this cookbook is intentionally opinionated
+for our purposes. Not all PRs will be accepted.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
