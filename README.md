@@ -1,11 +1,9 @@
 Socrata Sensu Cookbook
 ======================
-[![Cookbook Version](https://img.shields.io/cookbook/v/socrata-sensu.svg)][cookbook]
 [![Build Status](https://img.shields.io/travis/socrata-cookbooks/socrata-sensu.svg)][travis]
 [![Code Climate](https://img.shields.io/codeclimate/github/socrata-cookbooks/socrata-sensu.svg)][codeclimate]
 [![Coverage Status](https://img.shields.io/coveralls/socrata-cookbooks/socrata-sensu.svg)][coveralls]
 
-[cookbook]: https://supermarket.chef.io/cookbooks/socrata-sensu
 [travis]: https://travis-ci.org/socrata-cookbooks/socrata-sensu
 [codeclimate]: https://codeclimate.com/github/socrata-cookbooks/socrata-sensu
 [coveralls]: https://coveralls.io/r/socrata-cookbooks/socrata-sensu
