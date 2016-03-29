@@ -12,6 +12,5 @@ source_url 'https://github.com/socrata-cookbooks/socrata-sensu'
 issues_url 'https://github.com/socrata-cookbooks/socrata-sensu/issues'
 
 depends 'sensu', '~> 2.11'
-depends 'runit', '~> 1.7'
 
 supports 'ubuntu'

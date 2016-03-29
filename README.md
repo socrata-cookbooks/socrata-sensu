@@ -27,7 +27,7 @@ Recipes
 
 ***default***
 
-Installs Runit and Sensu.
+Installs Sensu without enabling any services.
 
 Attributes
 ==========

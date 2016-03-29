@@ -8,10 +8,6 @@ describe 'socrata-sensu::default' do
   let(:runner) do { ChefSpec::SoloRunner.new(platform) }
   let(:chef_run) { runner.converge(described_recipe) }
 
-  it 'installs Runit' do
-    expect(chef_run).to include_recipe('runit')
-  end
-
   it 'installs Sensu' do
     expect(chef_run).to include_recipe('sensu')
   end
