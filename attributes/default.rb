@@ -21,3 +21,6 @@
 default['sensu']['version'] = '0.22.0-1'
 default['sensu']['use_embedded_ruby'] = true
 default['sensu']['init_style'] = 'runit'
+
+default['sensu']['transport']['name'] = 'redis'
+default['sensu']['rabbitmq'] = {}

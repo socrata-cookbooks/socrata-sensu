@@ -15,4 +15,8 @@ describe 'socrata-sensu::default' do
   it 'configures Sensu to use Runit' do
     expect(chef_run.node['sensu']['init_style']).to eq('runit')
   end
+
+  it 'configures Sensu to use the Redis transport' do
+    expect(chef_run.node['sensu']['transport']['name']).to eq('redis')
+  end
 end
